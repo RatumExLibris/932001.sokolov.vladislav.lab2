@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+p.top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    background-color: green;
+    text-align: left;
+    color: white;
+    font-size: 9pt;
+}
+
+p.down {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    background-color: blue;
+    text-align: left;
+    color: white;
+    font-size: 9pt;
+    padding: 30px;
+}
