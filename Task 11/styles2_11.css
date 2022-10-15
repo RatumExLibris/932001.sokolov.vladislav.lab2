@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div.main {
+    width: calc(100%-20px);
+    margin: 10px 10px 0 10px;
+    display: flex;
+    border: 1px solid green;
+}
+
+img {
+    margin-left: auto;
+}
