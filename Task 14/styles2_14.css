@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 9pt;
+}
+
+@media (min-width: 900px) {
+
+    div.main {
+        margin: 10px 10px 0 10px;
+        border: 2px solid green;
+        background-color: aqua;
+        position: relative;
+        display: flex;
+    }
+
+    div.list {
+        background-color: bisque;
+        flex: 0 0 30%;
+        max-height: 70px;
+    }
+
+    div.text {
+        flex: 0 0 70%;
+        background-color: darkgray;
+    }
+
+    div.label {
+        display: none;
+    }
+}
+
+@media (max-width: 901px) {
+    div.main {
+        margin: 10px 10px 0 10px;
+        border: 2px solid green;
+        background-color: aqua;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.list {
+        display: none;
+    }
+
+    div.label {
+        background-color: bisque;
+        margin: 10px 0 10px 0;
+    }
+
+    div.text {
+        background-color: darkgray;
+    }
+}
