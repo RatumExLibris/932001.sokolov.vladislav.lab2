@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+div.static {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: Blueviolet;
+    width: 150px;
+    height: 100px;
+    color: white;
+}
+
+div.rel1 {
+    margin-left: 10px;
+    background-color: Darkred;
+    width: 150px;
+    height: 100px;
+    color: white;
+    position: relative;
+}
+
+div.rel2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: Peru;
+    width: 150px;
+    height: 100px;
+    color: white;
+    position: relative;
+}
+
+div.rel3 {
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: Indianred;
+    width: 550px;
+    height: 340px;
+    color: white;
+    position: relative;
+}
+
+div.abs {
+    top: 100px;
+    right: 0;
+    background-color: Indigo;
+    width: 300px;
+    height: 175px;
+    color: white;
+    position: absolute;
+}
+
+div.fixed {
+    right:0;
+    bottom: 0;
+    background-color: Forestgreen;
+    width: 100px;
+    height: 100px;
+    color: white;
+    position: fixed;
+}
