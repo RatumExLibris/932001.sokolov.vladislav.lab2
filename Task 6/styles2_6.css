@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+p.top {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    text-align: left;
+    font-size: 9pt;
+}
+
+p.down {
+    margin-left: auto;
+    margin-right: auto;
+    width: 285px;
+    text-align: left;
+    font-size: 9pt;
+    padding: 35px;
+    border: 10px solid blue;
+}
