@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 9pt;
+}
+
+div.main {
+    margin: 10px 10px 0 10px;
+    border: 2px solid green;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+}
+
+div.list {
+    background-color: bisque;
+    flex: 0 0 30%;
+    max-height: 70px;
+}
+
+div.text {
+    flex: 0 0 70%;
+    background-color: darkgray;
+}
+
+img {
+    float:right;
+    height: 30vw;
+    width: 30vw;
+}
+
+p {
+    margin: 0;
+    clear: right;
+}
+
+@media (max-width: 900px) {
+    p {
+        clear:none;
+    }
+}
